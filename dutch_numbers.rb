@@ -60,10 +60,16 @@ def dutch_number number
   return written_number
 end
 
+input = gets.chomp.to_i
+puts dutch_number input
 
-$i = 0
-$num = 100
-while $i <= $num  do
-   puts dutch_number $i
-   $i +=1
-end
+
+# test
+# $i = 0
+# $num = 100
+# while $i <= $num  do
+#    puts dutch_number $i
+#    $i +=1
+# end
+
+
